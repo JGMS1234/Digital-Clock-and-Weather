@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="DC.css">
+    <script src="DC.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="dtcontainer">
+        <div id="date-container">
+            <div id="date"></div>
+        </div>
+        <div id="clock-container">
+            <div id="clock">00:00:00</div>
+            <div id="que">
+                <button id="12h">12h time</button>
+                <button id="24h">24h time</button>
+            </div>
+        </div>
+    </div>
+    <div id="weather-container">
+        <input type="text" id="city-input" placeholder="Enter city name" style="display: none;">
+        <div id="citiesList"></div>
+        <h1 id="city"></h1>
+        <p id="temperature"></p>
+        <p id="weather-description"></p>
+        <p id="errorDisplay"></p>
+    </div>
+    <div id="Btn_section" style="display: none;">
+        <button id="search-button">Search</button>
+        <button id="get-location-button">Get Current Location</button>
+    </div>
+    
+</body>
+</html>
